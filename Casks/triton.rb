@@ -1,6 +1,6 @@
 cask "triton" do
-  version "1.1.0"
-  sha256 "91c955adf471dec33721f9bdd075064dac243994e29af764ff60ab460b0ba494"
+  version "1.2.0"
+  sha256 "90d6877c04a251f08820585e8bed94191e5c36319e1bdfcf215d98bd471946bd"
 
   url "https://github.com/otaviocc/Triton/releases/download/#{version}/OMG.zip"
   name "Triton"
