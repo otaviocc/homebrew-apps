@@ -3,11 +3,15 @@
 Homebrew tap for macOS applications maintained by me.
 
 - **Repository tap**: `otaviocc/apps`
-- **Supported platform**: macOS (app casks)
+- **Supported platform**: macOS (app casks and CLI formulas)
 
 ### Available casks
 
 - **stenographer**: Audio transcription application. Homepage: [`github.com/otaviocc/Stenographer`](https://github.com/otaviocc/Stenographer)
+
+### Available formulas
+
+- **holodeck**: macOS CLI and TUI for managing iOS Simulators. Homepage: [`github.com/otaviocc/Holodeck`](https://github.com/otaviocc/Holodeck)
 
 ## Install
 
@@ -26,7 +30,17 @@ brew install --cask stenographer
 ```ruby
 tap "otaviocc/apps"
 cask "stenographer"
+brew "holodeck"
 ```
+
+### Formulas (CLI tools)
+
+```bash
+brew install otaviocc/apps/holodeck
+```
+
+Formulas in this tap build from source (no signing or notarization needed),
+so a working Xcode toolchain with Swift 6.2+ is required.
 
 ## Usage
 
