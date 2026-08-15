@@ -1,17 +1,17 @@
 class Holodeck < Formula
   desc "macOS CLI and TUI for managing iOS Simulators"
   homepage "https://github.com/otaviocc/Holodeck"
-  url "https://github.com/otaviocc/Holodeck/archive/refs/tags/0.3.0.tar.gz"
-  sha256 "7703cae59551d22252db12e01bd107e0e2e9d6a97397b0a036083bf6d1a78f52"
+  url "https://github.com/otaviocc/Holodeck/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "629e9e0bb5a1c05905b006b5c6ecc8bab8979ddd0b78b68b13fe38c30bc9468f"
   license "MIT"
   head "https://github.com/otaviocc/Holodeck.git", branch: "main"
 
-  depends_on xcode: ["26.0", :build]
+  depends_on "rust" => :build
   depends_on :macos
+  depends_on xcode: "16.0"
 
   def install
-    system "swift", "build", "--disable-sandbox", "-c", "release"
-    bin.install ".build/release/holodeck"
+    system "cargo", "install", "--locked", "--path", "crates/holodeck-cli", "--root", prefix
   end
 
   test do
