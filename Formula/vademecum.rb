@@ -1,8 +1,8 @@
 class Vademecum < Formula
   desc "Themeable terminal Markdown reader with wikilink navigation"
   homepage "https://github.com/otaviocc/vademecum"
-  url "https://github.com/otaviocc/vademecum/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "9bce57c080952e3f11ed26e009c00086c69773ff138737f699237ff08b7b6e52"
+  url "https://github.com/otaviocc/vademecum/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "601b4ff3481d1aad3bd166ef54878b7cc45096a9ccab696c8046950b79e504fe"
   license "MIT"
   head "https://github.com/otaviocc/vademecum.git", branch: "main"
 
