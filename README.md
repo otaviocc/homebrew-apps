@@ -12,6 +12,7 @@ Homebrew tap for macOS applications maintained by me.
 
 ### Available formulas
 
+- **acervo**: Organize movie and TV libraries into Jellyfin's naming convention. Homepage: [`github.com/otaviocc/acervo`](https://github.com/otaviocc/acervo)
 - **holodeck**: macOS CLI and TUI for managing iOS Simulators. Homepage: [`github.com/otaviocc/Holodeck`](https://github.com/otaviocc/Holodeck)
 - **lyrics**: Fetch synced/plain lyrics and write them as sidecar files. Homepage: [`github.com/otaviocc/Lyrics`](https://github.com/otaviocc/Lyrics)
 - **vademecum**: Themeable terminal Markdown reader with wikilink navigation. Homepage: [`github.com/otaviocc/vademecum`](https://github.com/otaviocc/vademecum)
@@ -34,6 +35,7 @@ brew install --cask stenographer
 tap "otaviocc/apps"
 cask "stenographer"
 cask "triton"
+brew "acervo"
 brew "holodeck"
 brew "lyrics"
 brew "vademecum"
@@ -42,6 +44,7 @@ brew "vademecum"
 ### Formulas (CLI tools)
 
 ```bash
+brew install otaviocc/apps/acervo
 brew install otaviocc/apps/holodeck
 brew install otaviocc/apps/lyrics
 brew install otaviocc/apps/vademecum
