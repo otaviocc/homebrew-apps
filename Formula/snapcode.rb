@@ -1,8 +1,8 @@
 class Snapcode < Formula
   desc "Render code snippets to syntax-highlighted PNG or SVG images"
   homepage "https://github.com/otaviocc/snapcode"
-  url "https://github.com/otaviocc/snapcode/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9a0cf2f849296f8ab296199e839da4502e7366eab907dec80ccc43578dab2480"
+  url "https://github.com/otaviocc/snapcode/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "26bf728943762d87ad122c9d50a8db32de73582bb76b5ffc99615ac37f590138"
   license "MIT"
   head "https://github.com/otaviocc/snapcode.git", branch: "main"
 
