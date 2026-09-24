@@ -16,6 +16,7 @@ Homebrew tap for macOS applications maintained by me.
 - **holodeck**: macOS CLI and TUI for managing iOS Simulators. Homepage: [`github.com/otaviocc/Holodeck`](https://github.com/otaviocc/Holodeck)
 - **jellycard**: Generate Jellyfin library card artwork from a library name. Homepage: [`github.com/otaviocc/jellycard`](https://github.com/otaviocc/jellycard)
 - **lyrics**: Fetch synced/plain lyrics and write them as sidecar files. Homepage: [`github.com/otaviocc/Lyrics`](https://github.com/otaviocc/Lyrics)
+- **snapcode**: Render code snippets to syntax-highlighted PNG or SVG images. Homepage: [`github.com/otaviocc/snapcode`](https://github.com/otaviocc/snapcode)
 - **vademecum**: Themeable terminal Markdown reader with wikilink navigation. Homepage: [`github.com/otaviocc/vademecum`](https://github.com/otaviocc/vademecum)
 
 ## Install
@@ -40,6 +41,7 @@ brew "acervo"
 brew "holodeck"
 brew "jellycard"
 brew "lyrics"
+brew "snapcode"
 brew "vademecum"
 ```
 
@@ -50,6 +52,7 @@ brew install otaviocc/apps/acervo
 brew install otaviocc/apps/holodeck
 brew install otaviocc/apps/jellycard
 brew install otaviocc/apps/lyrics
+brew install otaviocc/apps/snapcode
 brew install otaviocc/apps/vademecum
 ```
 
