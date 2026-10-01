@@ -7,62 +7,41 @@ Homebrew tap for macOS applications maintained by me.
 
 ### Available casks
 
-- **stenographer**: Audio transcription application. Homepage: [`github.com/otaviocc/Stenographer`](https://github.com/otaviocc/Stenographer)
 - **triton**: A native macOS client for omg.lol. Homepage: [`github.com/otaviocc/Triton`](https://github.com/otaviocc/Triton)
 
 ### Available formulas
 
-- **acervo**: Organize movie and TV libraries into Jellyfin's naming convention. Homepage: [`github.com/otaviocc/acervo`](https://github.com/otaviocc/acervo)
-- **holodeck**: macOS CLI and TUI for managing iOS Simulators. Homepage: [`github.com/otaviocc/Holodeck`](https://github.com/otaviocc/Holodeck)
-- **jellycard**: Generate Jellyfin library card artwork from a library name. Homepage: [`github.com/otaviocc/jellycard`](https://github.com/otaviocc/jellycard)
 - **lyrics**: Fetch synced/plain lyrics and write them as sidecar files. Homepage: [`github.com/otaviocc/Lyrics`](https://github.com/otaviocc/Lyrics)
-- **rewind**: Terminal browser for your Claude Code conversation history. Homepage: [`github.com/otaviocc/rewind`](https://github.com/otaviocc/rewind)
-- **snapcode**: Render code snippets to syntax-highlighted PNG or SVG images. Homepage: [`github.com/otaviocc/snapcode`](https://github.com/otaviocc/snapcode)
-- **vademecum**: Themeable terminal Markdown reader with wikilink navigation. Homepage: [`github.com/otaviocc/vademecum`](https://github.com/otaviocc/vademecum)
 
 ## Install
 
 - **One‑liner**:
 ```bash
-brew install --cask otaviocc/apps/stenographer
+brew install --cask otaviocc/apps/triton
 ```
 
 - **Tap first, then install**:
 ```bash
 brew tap otaviocc/apps
-brew install --cask stenographer
+brew install --cask triton
 ```
 
 - **Brewfile** (`brew bundle`):
 ```ruby
 tap "otaviocc/apps"
-cask "stenographer"
 cask "triton"
-brew "acervo"
-brew "holodeck"
-brew "jellycard"
 brew "lyrics"
-brew "rewind"
-brew "snapcode"
-brew "vademecum"
 ```
 
 ### Formulas (CLI tools)
 
 ```bash
-brew install otaviocc/apps/acervo
-brew install otaviocc/apps/holodeck
-brew install otaviocc/apps/jellycard
 brew install otaviocc/apps/lyrics
-brew install otaviocc/apps/rewind
-brew install otaviocc/apps/snapcode
-brew install otaviocc/apps/vademecum
 ```
 
 Formulas in this tap build from source (no signing or notarization needed),
 so a Rust toolchain is required — Homebrew installs it automatically as a
-build dependency. `holodeck` additionally requires Xcode 16.0 or newer, since
-it drives the iOS Simulator.
+build dependency.
 
 ## Usage
 
@@ -74,19 +53,19 @@ Refer to each project homepage for usage instructions.
 ## Upgrade
 ```bash
 brew update
-brew upgrade --cask stenographer
-brew upgrade holodeck
+brew upgrade --cask triton
+brew upgrade lyrics
 ```
 
 ## Uninstall
 ```bash
-brew uninstall --cask stenographer
-brew uninstall holodeck
+brew uninstall --cask triton
+brew uninstall lyrics
 ```
 
 To remove all app data as well:
 ```bash
-brew uninstall --zap stenographer
+brew uninstall --zap triton
 ```
 
 To remove the tap entirely:
@@ -96,8 +75,8 @@ brew untap otaviocc/apps
 
 ## Troubleshooting
 
-- Check cask info: `brew info --cask stenographer`
-- Check formula info: `brew info holodeck`
+- Check cask info: `brew info --cask triton`
+- Check formula info: `brew info lyrics`
 - Doctor your Homebrew setup: `brew doctor`
 - Show help for Homebrew: `brew help` or `man brew`
 
