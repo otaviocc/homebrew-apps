@@ -1,10 +1,10 @@
 class Lyrics < Formula
   desc "Fetch synced/plain lyrics and write them as sidecar files"
-  homepage "https://github.com/otaviocc/Lyrics"
-  url "https://github.com/otaviocc/Lyrics/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "0241346a024673fdffbd7e475c22d91509cd42047e0a129994befd4411932bdc"
+  homepage "https://github.com/otaviocc/lyrics"
+  url "https://github.com/otaviocc/lyrics/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "0e02d719d09c5202c9cb9dcba23105a49ed3c17035e2055b81a786b7d2a82a88"
   license "MIT"
-  head "https://github.com/otaviocc/Lyrics.git", branch: "main"
+  head "https://github.com/otaviocc/lyrics.git", branch: "main"
 
   depends_on "rust" => :build
 
